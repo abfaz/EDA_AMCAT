@@ -50,6 +50,12 @@ The dataset consist of following columns (features):
 • ElectricalEngg - Score in AMCAT’s Electrical Engineering section
 • TelecomEngg - Score in AMCAT’s Telecommunication Engineering section
 • CivilEngg - Score in AMCAT’s Civil Engineering section
+• conscientiousness - Scores in one of the sections of AMCAT’s personality test
+• agreeableness - Scores in one of the sections of AMCAT’s personality test
+• extraversion - Scores in one of the sections of AMCAT’s personality test
+• neuroticism - Scores in one of the sections of AMCAT’s personality test
+• openess_to_experience - Scores in one of the sections of AMCAT’s personality test
+```
 
 
 
