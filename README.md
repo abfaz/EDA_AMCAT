@@ -67,6 +67,44 @@ The dataset consist of following columns (features):
 • In the 'DOL' (Date of Leaving) column, we utilized a lambda function to categorize entries as 'Leave' or 'Present' based on the presence of a '/' character, facilitating further analysis and interpretation.
 
 
+## Univariate Analysis Results
+
+• Salary has a wide range of values, with the minimum salary being $35,000 and the maximum being $4,000,000. The mean salary is approximately $307,700, with a median of $300,000, indicating a positively skewed distribution.
+
+• Academic performance metrics reveal distinctive patterns. In the 10th-grade, percentages span from 43.0 to 97.76, with an average of 77.93 and a median of 79.15. The mode at 78.0 signifies the most common percentage.
+
+• For 12th-grade percentages, the range is 40.0 to 98.7, showcasing a balanced distribution with a mean of 74.47, median of 74.4, and mode at 70.0. The 12percentage column aligns closely with a normal distribution, as affirmed by the Q-Q plot.
+
+• College GPAs range from 6.45 (with potential outliers less than 40 that can be considered for removal) to 99.93, exhibiting negatively skewed distributions
+
+• There is a notable gender imbalance within the dataset, with a substantial majority of 3041 males compared to 957 females confirmed by a bar plot. This disparity may introduce bias in gender-specific analyses. 
+
+• 53 % of employees left the company while 47 % are still in their present roles. This distribution provides insights into the employment status of the dataset, with a slightly higher representation of individuals who have left their jobs.
+
+• The majority of individuals in the dataset hold technical roles, with 'Software Engineer,' 'Software Developer,' and 'System Engineer' being the most prevalent designations. Additionally, managerial positions such as 'Assistant Manager' are also notable among the top 15 designations.
+
+• Bangalore, Noida, and Hyderabad are the most preferred cities for employment among the top 15 cities. This suggests a concentration of job opportunities in these urban centers.
+
+• Looking at educational backgrounds, a significant majority of candidates hold a B.Tech/B.E. degree, suggesting a predominant technical education. MCA, M.Tech./M.E., and M.Sc. (Tech.) represent a smaller proportion of the degrees among the candidates.
+
+• Most candidates in the dataset hail from Uttar Pradesh, Karnataka, and Tamil Nadu, and they predominantly attended Tier 2 colleges. Uttar Pradesh, in particular, has a significantly higher representation compared to other states, while several states have lower representation overall.
+
+• Majority of candidates passed out 12th in year 2009 and completed graduation in 2013 suggested that it took about 4 years to graduate after 12th standard.
+
+
+## Biivariate Analysis Results
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
