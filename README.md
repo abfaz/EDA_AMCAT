@@ -58,6 +58,14 @@ The dataset consist of following columns (features):
 ```
 
 
+## Data Cleaning and Feature Engineering
+
+• The dataset consists of 3998 rows and 39 columns, with no missing values. Initially, missing data was indicated by -1, but we replaced these instances with NaN for thorough data analysis.
+
+• Additionally, we converted the 'DOJ' (Date of Joining) and 'DOB' (Date of Birth) columns to datetime format for consistency and ease of manipulation.
+
+• In the 'DOL' (Date of Leaving) column, we utilized a lambda function to categorize entries as 'Leave' or 'Present' based on the presence of a '/' character, facilitating further analysis and interpretation.
+
 
 
 
