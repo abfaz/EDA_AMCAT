@@ -94,6 +94,23 @@ The dataset consist of following columns (features):
 
 ## Biivariate Analysis Results
 
+• The scatter plots between '10percentage', '12percentage', 'collegeGPA', and 'Salary' suggest a probable linear relationship, supported by the rejection of the null hypothesis in the Pearson correlation tests. This indicates that higher academic performance is associated with higher salary levels in the dataset.
+
+• The box plot between Salary and college tier shows a significant disparity in Salary between Tiers, where Tier 1 exhibits higher salaries than Tier 2 supported by two sample t test(stat=5.080, p_val=0.000). In contrast, Salary variations based on Gender and College City Tier are not statistically significant.
+
+• The salary analysis indicates that there is a slight difference among the degree categories, with B.Tech/B.E., M.Sc. (Tech.), and M.Tech./M.E. showing comparable salary levels. However, MCA stands out with a significantly lower salary compared to the other degrees, suggesting a potential impact of the degree type on salary variations. This observation is further supported by a one-way ANOVA test, revealing a p-value of 0.047, which signifies a significant difference between the salary groups associated with different degrees.
+
+• The Salary distribution across different job cities highlights a significant difference, with Mumbai exhibiting the highest mean salary and Bangalore, Gurgaon, Pune and Hyderabad following suit. The one-way ANOVA test (p_val=0.000) supports this observation, rejecting the null hypothesis and confirming a substantial disparity in Salary based on Job City.
+
+• The box plot for the top 10 Designations highlights noteworthy variations in Salary, with "Senior Software Engineer" exhibiting a significantly higher mean Salary compared to other roles.
+
+• 
+
+
+
+
+
+
 
 
 
