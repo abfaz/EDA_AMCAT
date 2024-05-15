@@ -104,7 +104,10 @@ The dataset consist of following columns (features):
 
 • The box plot for the top 10 Designations highlights noteworthy variations in Salary, with "Senior Software Engineer" exhibiting a significantly higher mean Salary compared to other roles.
 
-• 
+• The count plot illustrating the distribution of Degrees based on the DOL (Date of Leaving) status aligns with the chi-square test results (stat=0.045, p=0.998). The failure to reject the null hypothesis suggests probable independence between Degree and DOL in the dataset. This indicates that the distribution of Degrees is likely independent of the Date of Leaving status.
+
+• Times of India article dated Jan 18, 2019 states that “After doing your Computer Science Engineering if you take up jobs as a Programming Analyst, Software Engineer, Hardware Engineer and Associate Engineer you can earn up to 2.5-3 lakhs as a fresh graduate.”  - The statistical analysis supports the claim in the Times of India article partially. ANOVA testing reveals a significant salary difference among groups, particularly between "qa analyst" and "software engineer" (p-adj = 0.044). However, no significant differences exist in salaries between other job titles, as evident in the box plot. In conclusion, while there's a significant difference between "qa analyst" and "software engineer," the broader claim about earnings for "Programming Analyst, Software Engineer, Hardware Engineer, and Associate Engineer" is partially supported.
+
 
 
 
